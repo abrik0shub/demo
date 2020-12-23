@@ -1,0 +1,160 @@
+<FrameLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fon2"
+        android:scaleType="centerCrop"></ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/white"
+        android:scaleType="centerCrop"></ImageView>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp">
+
+        <LinearLayout
+            android:background="#FFFFFF"
+            android:layout_width="360dp"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:src="@drawable/user"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="15dp"></ImageView>
+
+            <LinearLayout
+                android:background="#EEEEEE"
+                android:layout_width="2dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"></LinearLayout>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Ivanov.I"
+                android:layout_gravity="center"
+                android:background="#fff"
+                android:layout_marginLeft="10dp"></EditText>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#FFFFFF"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:src="@drawable/email"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="15dp"></ImageView>
+
+            <LinearLayout
+                android:background="#EEEEEE"
+                android:layout_width="2dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"></LinearLayout>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="ivanov@gmail.com"
+                android:layout_gravity="center"
+                android:background="#fff"
+                android:layout_marginLeft="10dp"></EditText>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#FFFFFF"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:src="@drawable/zamok"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="15dp"></ImageView>
+
+            <LinearLayout
+                android:background="#EEEEEE"
+                android:layout_width="2dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"></LinearLayout>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="pass"
+                android:layout_gravity="center"
+                android:background="#fff"
+                android:layout_marginLeft="10dp"></EditText>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#FFFFFF"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:src="@drawable/zamok"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="15dp"></ImageView>
+
+            <LinearLayout
+                android:background="#EEEEEE"
+                android:layout_width="2dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"></LinearLayout>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="pass"
+                android:layout_gravity="center"
+                android:background="#fff"
+                android:layout_marginLeft="10dp"></EditText>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="70dp"
+        android:background="#1D4FAA"
+        android:text="SIGN UP"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="290dp"
+        android:onClick="mapss"></Button>
+
+
+
+</FrameLayout>
